@@ -1,42 +1,56 @@
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    text-align: center;
+    background: #f9f9f9;
 }
 
 header {
-    background: #0073e6;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    color: white;
+    padding: 20px;
 }
 
-header h1 {
+h1 {
     margin: 0;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    text-align: center;
+    padding: 20px;
 }
 
-main p {
-    font-size: 1.2rem;
-    color: #555;
+.app-info img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.download-buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    background: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.contact {
+    margin-top: 40px;
 }
 
 footer {
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
     background: #333;
-    color: #fff;
-    font-size: 0.8rem;
+    color: white;
+    padding: 10px;
 }
